@@ -7,6 +7,9 @@ public class User {
                 new Address("Test street 1", 5363, "Somewhere")
         );
 
+        
+        // Testing commit
+        
         rentalCompany.createOffices(2);
 
         Office o = rentalCompany.search();
