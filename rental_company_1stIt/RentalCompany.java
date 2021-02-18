@@ -43,6 +43,11 @@ public class RentalCompany {
     public Office search() {
         return offices.get(0);
     }
+    
+    public List<Office> getAllOffices(){
+    	
+    	return offices;
+    }
 
     @Override
     public String toString() {
